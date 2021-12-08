@@ -38,4 +38,3 @@ function (string){
 * Contains a plausible collection of test cases
 * Outputs are accurately derived from inputs
 * Summary is plausible
-  * Official answer is that it reverses all of the words within the given string
