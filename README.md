@@ -8,12 +8,12 @@ Your task is to figure out how this code works.
 * Write a summary of what the function does.
 
 ```js
-function (string){
+function someFunction(string){
   let reverse = []
   let words = string.split(" ")
   words = words.reverse()
 
-  for (word in words){
+  for (let word of words){
     reverse.push(word.reverse())
   }
   return reverse.join(" ")
